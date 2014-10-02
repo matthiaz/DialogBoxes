@@ -36,9 +36,10 @@ class QTextBoxPromptDialog extends QPromptDialog {
 		$this->txtTextbox->Text = $strText;
 	}
     
-    public function GetValue($strText) {        
+    	public function GetValue() {        
 		return $this->txtTextbox->Text;
-    }
+    	}
+    	
 	public function ShowDialogBox() {								
 		parent::ShowDialogBox();
 		
